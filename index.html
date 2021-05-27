@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+    <body>
+        <div class="frame">
+            <table width="1000" >
+                <caption class="shapka">Резюме для лабораторной работы 3</caption>
+                <col width="10">
+                <tr class="Name">
+                    <td >ФИО:</td>
+                    <td><p id="SecondName">Талызин Никита Владимирович</p>
+                    </td>
+                    <td><input type="text" value="" id="txt"> 
+                        <input class="btn" type="button" value="Смена ФИО" onclick="rename()">
+                    </td>
+                </tr>
+                <tr class="Group">
+                    <td>Группа:</td>
+                    <td>АДБ 18-07 <img class="image" src="Picture.jpg">
+                    </td>
+                </tr>
+            </table>
+            <table width="500" > 
+                <col width="500">
+                <tr class="AboutMe">
+                    <td>
+                        Немного о себе:
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Text" id="Text"> 
+                        <input class="btn" type="button" value="Рандомный фон" onclick="Rnd()">
+                        <p>Ко мне подошёл Англичанин и сказал что на улице туман(Two man)
+
+                            - Я выглянул в окно и увидел там двух мужиков</p> <br>
+                            <p> — Официант, можно заказать какой-нибудь африканский деликатес?
+
+                            — Воды?</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="script.js"> </script>
+    </body>
+</html>

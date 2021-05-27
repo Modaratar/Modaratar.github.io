@@ -1,0 +1,59 @@
+.shapka{
+    margin: left;
+    font-size: 300%;
+    color: #3ec793;
+    text-shadow: #800053 -1px -1px 0, #FFDE40 1px 1px 0;
+}
+.shapka:hover{
+    margin: left;
+    font-size: 300%;
+    color: #2738d3;
+    text-shadow: #24913C -5px -5px 0, #FFBF40 5px 5px 0;
+}
+.Name{
+    font-size: 180%;
+    color: #3ec793;
+    text-shadow: #800053 1px 1px 0, #FFDE40 -1px -1px 0
+}
+.Group{
+    font-size: 180%;
+    color: #00ff55;
+    text-shadow: #800053 5px 5px 5px;
+}
+.AboutMe{
+    font-size: 180%;
+    color: #00ff55;
+    text-shadow:#800053 5px 5px 5px;   
+}
+.frame{
+    height: 600px;
+    border: 15px #ca5c28;
+    background: #bababba9; 
+    padding: 30px; 
+    border-style: solid;
+}
+.Text{
+    height: 300px;
+    border: 10px #ca5c28;
+    background: #e7e975a9; 
+    padding: 20px; 
+    border-style: solid;
+}
+.image{
+    position: absolute;
+    left: 600px;
+    top: 280px;
+    margin: auto;
+    height: 350px;
+    width: 600px;
+}
+.btn{
+    width: 150px;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background: #1be2a6;
+    border-radius: 10px;
+}
